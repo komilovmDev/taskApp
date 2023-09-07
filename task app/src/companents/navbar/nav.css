@@ -1,6 +1,10 @@
 .navbar {
-    height: 100px;
+    height: 70px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.103);
 }
 
 .navbar .navleft {
@@ -10,16 +14,40 @@
 }
 
 .navbar .navleft img {
-    width: 140px;
+    width: 100px;
     cursor: pointer;
 }
 
 .navbar .navleft h3 {
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 0.2px;
     color: #FF8B36;
 }
 
 .navbar .navRight {         
     
+}
+
+.navbar .navRight .userInfo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 5px 15px;
+    border-radius: 15px;
+    padding-right: 10px;
+}
+
+.navbar .navRight .userInfo:hover {
+    background-color: #3333331f;
+}
+
+.navbar .navRight .userInfo img {
+    width: 40px;
+}
+
+.navbar .navRight .userInfo h5 {
+    font-size: 16px;
 }
