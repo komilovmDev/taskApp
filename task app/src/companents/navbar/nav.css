@@ -1,0 +1,25 @@
+.navbar {
+    height: 100px;
+    display: flex;
+}
+
+.navbar .navleft {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.navbar .navleft img {
+    width: 140px;
+    cursor: pointer;
+}
+
+.navbar .navleft h3 {
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    color: #FF8B36;
+}
+
+.navbar .navRight {         
+    
+}
